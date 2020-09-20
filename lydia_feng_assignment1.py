@@ -16,7 +16,7 @@ import xlsxwriter
 
 
 # read in posts and symptom lexicon
-textpath = './s11.xlsx'
+textpath = './UnlabeledSet2.xlsx'
 symptompath = './COVID-Twitter-Symptom-Lexicon.txt'
 data = pd.read_excel(textpath)
 file = pd.DataFrame(data, columns=['ID', 'DATE', 'TEXT'])
